@@ -12,7 +12,7 @@ import shrinivas.TestComponents.Retry;
 
 public class ErrorValidationTest extends BaseTest 
 {
-
+    // Achieving grouping here 
 	@Test(groups = { "ErrorHandling" }, retryAnalyzer = Retry.class)
 	public void LoginCredentialsValidation() throws InterruptedException, IOException 
 	{
